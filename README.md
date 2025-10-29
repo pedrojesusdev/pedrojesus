@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🌐 Portfólio — Pedro Jesus
 
-## Project info
+Este é o repositório do meu site pessoal [pedrojesus-two.vercel.app](https://pedrojesus-two.vercel.app), desenvolvido para apresentar meus projetos, trajetória profissional e habilidades em desenvolvimento web.
 
-**URL**: https://lovable.dev/projects/a4cbd1d8-bc56-40a7-a7fd-ec57461190d8
+---
 
-## How can I edit this code?
+## 🚀 Tecnologias Utilizadas
 
-There are several ways of editing your application.
+- **Next.js** — Framework principal para construção do site  
+- **React.js** — Biblioteca para criação de interfaces dinâmicas  
+- **TypeScript** — Tipagem estática para código mais seguro  
+- **Tailwind CSS** — Estilização responsiva e moderna  
+- **Vercel** — Plataforma de deploy e hospedagem contínua  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a4cbd1d8-bc56-40a7-a7fd-ec57461190d8) and start prompting.
+## 🧭 Estrutura do Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+/
+├── public/ # Imagens e arquivos estáticos
+├── src/
+│ ├── components/ # Componentes reutilizáveis
+│ ├── pages/ # Páginas principais do site
+│ ├── styles/ # Estilos globais e configurações Tailwind
+│ ├── data/ # Informações usadas nas seções do site
+│ └── utils/ # Funções auxiliares e hooks
+├── package.json # Dependências e scripts do projeto
+└── README.md # Documentação do projeto
 
-**Use your preferred IDE**
+yaml
+Copiar código
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## ⚙️ Como Executar Localmente
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/<seu-usuario>/<nome-do-repositorio>.git
+cd <nome-do-repositorio>
+2. Instalar dependências
+bash
+Copiar código
+npm install
+3. Rodar em modo de desenvolvimento
+bash
+Copiar código
 npm run dev
-```
+O site ficará disponível em:
+👉 http://localhost:3000
 
-**Edit a file directly in GitHub**
+🌍 Deploy
+O projeto está hospedado na Vercel, com deploy contínuo integrado ao GitHub.
+A cada push na branch main, uma nova versão é automaticamente publicada em:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🔗 https://pedrojesus-two.vercel.app
 
-**Use GitHub Codespaces**
+📄 Licença
+Este projeto é de uso pessoal e está protegido por direitos autorais © 2025 Pedro Jesus.
+Não é permitido uso comercial ou redistribuição sem autorização prévia.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+✉️ Contato
+Email: pedroandrecps@gmail.com
 
-## What technologies are used for this project?
+LinkedIn: linkedin.com/in/pedrojesusdev
 
-This project is built with:
+Portfólio Online: pedrojesus-two.vercel.app
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a4cbd1d8-bc56-40a7-a7fd-ec57461190d8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Criado com dedicação, design minimalista e foco em performance. 🚀
