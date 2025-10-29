@@ -3,7 +3,7 @@ import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Desenvolvedor Front-End apaixonado por Web Design e Next.js 🚀";
+  const fullText = "Desenvolvedor de aplicações web com ênfase em performance, design e arquitetura moderna 🚀";
 
   useEffect(() => {
     let index = 0;

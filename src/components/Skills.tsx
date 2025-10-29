@@ -1,12 +1,12 @@
-import { Code2, Coffee, FileCode2, Layers, Database, Globe } from "lucide-react";
+import { Code2, Coffee, FileCode2, Atom, Bug, Globe } from "lucide-react";
 
 const Skills = () => {
   const skills = [
-    { name: "React / Next.js", icon: Layers, color: "text-[#61DAFB]" },
+    { name: "React / Next.js", icon: Atom, color: "text-[#61DAFB]" },
     { name: "JavaScript", icon: FileCode2, color: "text-[#F7DF1E]" },
     { name: "TypeScript", icon: Code2, color: "text-[#3178C6]" },
     { name: "Java", icon: Coffee, color: "text-[#007396]" },
-    { name: "Python", icon: Database, color: "text-[#3776AB]" },
+    { name: "Python", icon: Bug, color: "text-[#3776AB]" },
     { name: "HTML / CSS", icon: Globe, color: "text-primary" }
   ];
 
