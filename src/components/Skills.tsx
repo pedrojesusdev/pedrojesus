@@ -1,4 +1,23 @@
-import { Code2, Coffee, FileCode2, Atom, Bug, Globe } from "lucide-react";
+import { Code2, Coffee, FileCode2, Atom, Globe } from "lucide-react";
+
+const SnakeIcon = ({ size = 48, className = "" }: { size?: number; className?: string }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="1.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <path d="M8 3c-2.5 0-4 2-4 4.5S7 10 9 10c1.5 0 2.5-.5 3-1.5" />
+    <path d="M12 8.5c.5-1 1.5-1.5 3-1.5 2 0 4.5 1.5 4.5 4S17.5 15 15 15c-1.5 0-2.5-.5-3-1.5" />
+    <path d="M12 13.5c-.5 1-1.5 1.5-3 1.5-2.5 0-4.5-1.5-4.5-4S6.5 7 9 7" />
+    <circle cx="6" cy="6" r="1" fill="currentColor" />
+  </svg>
+);
 
 const Skills = () => {
   const skills = [
@@ -6,7 +25,7 @@ const Skills = () => {
     { name: "JavaScript", icon: FileCode2, color: "text-[#F7DF1E]" },
     { name: "TypeScript", icon: Code2, color: "text-[#3178C6]" },
     { name: "Java", icon: Coffee, color: "text-[#007396]" },
-    { name: "Python", icon: Bug, color: "text-[#3776AB]" },
+    { name: "Python", icon: SnakeIcon, color: "text-[#3776AB]" },
     { name: "HTML / CSS", icon: Globe, color: "text-primary" }
   ];
 
