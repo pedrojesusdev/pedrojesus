@@ -1,9 +1,18 @@
 import { ExternalLink, Github } from "lucide-react";
 import blackFridayImage from "@/assets/print_black_friday.png";
 import nastroImage from "@/assets/print_nastro.png";
+import elevDigitalImage from "@/assets/print_elev_digital.png";
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Elev Digital Hub",
+      description: "Plataforma digital completa para gestão de negócios, oferecendo soluções integradas para empresas que buscam transformação digital e crescimento.",
+      image: elevDigitalImage,
+      link: "https://elevbusiness.vercel.app",
+      github: "https://github.com/pedrojesusdev/elev-digital-hub",
+      tags: ["Next.js", "TypeScript", "Tailwind CSS"]
+    },
     {
       title: "Black Impulse",
       description: "Landing page promocional para evento de Black Friday com design moderno e impactante, focada em conversão e experiência do usuário.",
