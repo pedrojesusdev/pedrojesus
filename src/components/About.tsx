@@ -15,7 +15,7 @@ const About = () => {
               <img
                 src={profileImage}
                 alt="Pedro André Melo Andrade de Jesus"
-                className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-background"
+                className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover object-[center_20%] border-4 border-background"
               />
             </div>
           </div>
