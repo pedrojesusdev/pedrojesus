@@ -1,14 +1,14 @@
 import { ExternalLink, Github } from "lucide-react";
 import blackFridayImage from "@/assets/print_black_friday.png";
-import nastroImage from "@/assets/print_nastro.png";
-import elevDigitalImage from "@/assets/print_elev_digital.png";
+import nastroImage from "@/assets/print_nastro_new.png";
+import elevBusinessImage from "@/assets/print_elev_business.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Elev Digital Hub",
+      title: "Elev Business",
       description: "Plataforma digital completa para gestão de negócios, oferecendo soluções integradas para empresas que buscam transformação digital e crescimento.",
-      image: elevDigitalImage,
+      image: elevBusinessImage,
       link: "https://elevbusiness.vercel.app",
       github: "https://github.com/pedrojesusdev/elev-digital-hub",
       tags: ["Next.js", "TypeScript", "Tailwind CSS"]
