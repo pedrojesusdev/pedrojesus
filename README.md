@@ -1,6 +1,6 @@
 # 🌐 Portfólio — Pedro Jesus
 
-Este é o repositório do meu site pessoal [pedrojesus-two.vercel.app](https://pedrojesus-two.vercel.app), desenvolvido para apresentar meus projetos, trajetória profissional e habilidades em desenvolvimento web.
+Este é o repositório do meu site pessoal [https://pedro-jesus.vercel.app](https://pedro-jesus.vercel.app), desenvolvido para apresentar meus projetos, trajetória profissional e habilidades em desenvolvimento web.
 
 ---
 
@@ -53,17 +53,17 @@ O site ficará disponível em:
 O projeto está hospedado na Vercel, com deploy contínuo integrado ao GitHub.
 A cada push na branch main, uma nova versão é automaticamente publicada em:
 
-🔗 https://pedrojesus-two.vercel.app
+🔗 https://pedro-jesus.vercel.app
 
 📄 Licença
 Este projeto é de uso pessoal e está protegido por direitos autorais © 2025 Pedro Jesus.
 Não é permitido uso comercial ou redistribuição sem autorização prévia.
 
 ✉️ Contato
-Email: pedroandrecps@gmail.com
+Email: pa04052007@gmail.com
 
-LinkedIn: linkedin.com/in/pedrojesusdev
+LinkedIn: https://www.linkedin.com/in/pedro-jesus-8084021b5
 
-Portfólio Online: pedrojesus-two.vercel.app
+Portfólio Online: https://pedro-jesus.vercel.app
 
 Criado com dedicação, design minimalista e foco em performance. 🚀
